@@ -1,0 +1,308 @@
+/* Fonts to be resized should be placed before .stop and must have font-size and line-height speciefied in em */
+.calt{ font-size: 1em ; font-face: lucida sans, frutiger, arial, helvetica, geneva;}
+.hd { font-size: 0.9em; line-height: 1.2em; margin-top: 14px; font-family:  lucida sans,Arial,Helvetica; font-weight: bold; text-decoration: none; color: #000000; } /* header */
+.big { font-size: 2em; color: #000000;}
+.mr { font-size: 0.8em; line-height: 1.2em; margin-top: 1em; font-family:  lucida sans,Arial,Helvetica; font-weight: bold; text-decoration: none; color: #000000; } /* mellemrubrik */
+.black { color: #000000;}
+.br0 { font-size: 0.7em; line-height: 1.55em; font-family: lucida sans,goudy,timesnewroman,times; text-decoration: none; color: #333333; } /* brødtekst 0 */
+.br1 { font-size: 0.7em; line-height: 1.55em; font-family: lucida sans,goudy,timesnewroman,times; text-decoration: none; color: #333333; } /* brødtekst 1 */
+.br2 { font-size: 0.7em; line-height: 1.55em; font-family: lucida sans,goudy,timesnewroman,times; text-decoration: none; color: #333333;  text-indent: 1em; } /* brødtekst 2 */
+.bt { font-size: 0.7em; line-height: 3em; vertical-align: super; } /* toptegn */
+.bf { font-size: 0.7em; line-height: 1.55em; vertical-align: sub; } /* fodtegn */
+.fn { font-size: 0.7em; line-height: 1.55em; margin-top: 1em; font-family:  lucida sans,Arial,Helvetica; text-decoration: none; color: #333333; } /* fodnote */
+.co { font-size: 0.7em; line-height: 1.55em; font-family:  lucida sans,Arial,Helvetica; text-decoration: none; color: #333333; } /* core text */
+.co2 { font-size: 0.7em; line-height: 1.55em; font-family:  lucida sans,Arial,Helvetica; text-decoration: none; color: #333333; text-indent: 1em;} /* core text indent */
+.cb { font-size: 0.7em; line-height: 1.55em; font-family:  lucida sans,Arial,Helvetica; font-weight: bold; color: #333333; text-decoration: none; } /* core bånd */
+.ft { font-size: 0.7em; line-height: 1.55em; vertical-align: super; } /* fodnote toptegn */
+.ff { font-size: 0.7em; line-height: 1.55em; vertical-align: sub; } /* fodnote fodtegn */
+.wh { font-size: 0.7em; line-height: 1.20em; margin-right: 2em; font-family:  lucida sans,Arial,Helvetica; text-decoration: none; color: #CCC; text-align: right;} /* tidl. hvid margentekst */
+.st { font-size: 0.7em; line-height: 1em; text-align: center; margin-top: 0.93em; margin-bottom: 0.93em; font-family:  lucida sans,Gillsans mt,Arial,Helvetica; text-decoration: none; color: #000000; } /* standardtekst */
+.red { color: #FF0000;}
+.stop { text-decoration: none; } /* stops resize */
+.cf { border: 0.07em solid #0066cc; padding: 0.28em; } /* coreside frame */
+.left { float: left; margin-right: 0.57em; margin-bottom: 0.57em;}
+.right { float: right; margin-left: 0.57em; margin-bottom: 0.57em;}
+.middle {margin-bottom: 0.57em;}
+.top {margin-bottom: 0.57em;}
+.bottom {margin-bottom: 0.57em;}
+.xxx { text-decoration: none; } /* stops print substitution */
+body { color: red; font-family: lucida sans, Gillsans mt,Arial,Helevtica; font-size=0.86em; line-height=0.86em; background-repeat: no-repeat; background-attachment: fixed; }
+img { border: 0; }
+/* .br0:first-letter { font-size: 250%; float: left;} */
+a:link {color: #990099; text-decoration: none; border: 1px #990099 solid; border-style: none none solid none;}
+a:hover { border: none;}
+a:visited {color: #828282; text-decoration: none; border: 1px #828282 dotted; border-style: none none solid none;}
+
+#objIdentityTable a, #objHeadlineTable a, #objHeaderTable a{ border-style: none; } /* Fjerner understregninger ved menuen i nogle browsere */
+
+#txt0 { z-index: 20; font-family: lucida sans,goudy,timesnewroman,times; color: #ff0000; text-decoration: none; font-size: 0.86em; line-height: 1em; position: absolute; top: 150px; left: 230px; width: 510px; height: 457px; visibility: visible; display: block; background: fff;}
+#txt1 { z-index: 50; font-family: lucida sans,goudy,timesnewroman,times; color: #ff0000; text-decoration: none; font-size: 0.86em; line-height: 1em; position: absolute; top: 63px; left: 176px; width: 141px; height: 457px; visibility: visible; display: block; background: white; visibility: hidden;}
+#txt2 { z-index: 0; font-family: lucida sans,goudy,timesnewroman,times; color: #ff0000; text-decoration: none; font-size: 0.86em; line-height: 1em; position: absolute; top: 0px; left:0px; width: 510px; height: 457px; visibility: visible; display: block; background: white;}
+#panel { z-index: 27; font-size: 0.86em; line-height: 0.86em; font-family: lucida sans, Gillsans mt,Arial,Helevtica; position: absolute; top: 100px; left: 0; width: 230px; height: 63px; visibility: visible; display: block; color: #000000;}
+#hlp0 { z-index: 30; position: absolute; top: 35px; left: 35px; width: 195px; height: 30px; visibility: hidden; display: block; }
+#hlp1 { z-index: 40; position: absolute; top: 1em; left: 572px; width: 148px; height: 209px; visibility: hidden; display: block; margin-left: 3px; margin-top 3px; margin-right: 0.64em; margin-bottom: 0.64em; background: url(../res/minibgsk.gif); font-family: lucida sans, courier; } /* extra help layer */
+#hlp2 { z-index: 43; position: absolute; top: 213px; left: 575px; width: 148px; height: 250px; visibility: hidden; display: block; font-family: lucida sans,Arial,Helvetica; font-size: 1em; line-height: 1em; color: black; text-align: left;} /* extra help layer */
+#hlp3 { z-index: 46; position: absolute; top: 1em; left: 572px; width: 148px; height: 209px; visibility: hidden; display: block; } /* transparent layer */
+#mp { z-index: 25; position: absolute; top: 164px; left: 35px; width: 195px; height: 370px; visibility: visible; display: block; }
+#hc { z-index: 1; position: absolute; top: 1em; left: 572px; width: 2px; height: 209px; visibility: hidden; display: block; margin-left: 3px; margin-top 3px; margin-right: 0.64em; margin-bottom: 0.64em; background: url(../res/minibgsk.gif); font-family: lucida sans,courier; }
+#answer { z-index: 55; position: absolute; top: 63px; left: 230px; width: 120px; height: 200px; visibility: visible; display: block; padding: 4px; border: black inset 1px; font-size: 0.83em; line-height: 1em; font-family:  lucida sans, Gillsans mt,Arial,Helvetica; text-decoration: none; color: #000000; }
+#sco { z-index: 56; position: absolute; top: 270px; left: 230px; width: 120px; height: 200px; visibility: visible; display: block; padding: 4px; border: black inset 1px; font-size: 0.83em; line-height: 1em; font-family:  lucida sans, Gillsans mt,Arial,Helvetica; text-decoration: none; color: #000000; }
+
+/* HTML tags */
+body
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+/* Links */
+a.cssLinkMajor	
+	{
+		color: #990099;
+		text-decoration: underline;
+	}
+	
+a.cssLinkMajor:hover
+	{	
+		color: #990099;
+		text-decoration: underline;
+	}
+	
+a.cssLinkMajor:visited
+	{
+		color: #990099;
+		text-decoration: underline;
+	}
+
+	
+a.cssLinkClear
+	{
+		text-decoration: none;
+	}
+	
+
+/* Form elements */	
+.cssFormSearchTextBox
+	{
+		width: 130px;
+		height: 14px;	
+		font-family: Lucida Grande, Trebuchet MS, Lucida Sans Unicode;
+		font-size: 10px;
+		color: #333333;
+	}
+	
+	
+/* Elements */
+.cssPageElementHorizontalSeparator
+	{
+		width: 750px !Important;
+		height: 1px !Important;
+		background-color: #E5E5E5 !Important;
+		font-size: 0px !Important;
+	}
+	
+.cssPageElementVerticalSeparator
+	{
+		width: 1px !Important;
+		background-color: #E5E5E5 !Important;
+		font-size: 0px !Important;
+	}
+	
+.cssPageElementInnerSeparator
+	{
+		width: 490px !Important;
+		height: 1px !Important;
+		background-color: #E5E5E5 !Important;
+		font-size: 0px !Important;
+	}
+
+.cssPageElementHeader
+	{
+		padding: 10px 10px 10px 10px;	
+	}
+	
+.cssPageElementHeadline
+	{
+		padding: 8px 10px 6px 10px;	
+	}
+	
+.cssPageElementIdentity
+	{
+		padding: 0px 10px 8px 10px;	
+	}
+
+.cssPageElementBanner
+	{
+		padding: 10px 10px 10px 10px;	
+	}
+
+.cssPageElementNavigator
+	{
+		padding: 14px 10px 20px 10px;
+	}
+
+.cssPageElementContent
+	{
+		padding: 0px;
+	}
+	
+.cssPageElementInnerContent
+	{
+		padding: 11px 12px 20px 18px;
+	}
+	
+.cssPageElementListContent
+	{
+		padding: 11px 12px 20px 18px;
+	}
+	
+.cssPageElementInnerCoverContent
+	{
+		padding: 20px 10px 20px 10px;
+	}
+	
+.cssPageElementFooter
+	{
+		padding: 17px 10px 20px 10px;
+	}
+	
+
+.cssPageElementResultsHeader
+	{
+		padding: 14px 10px 14px 10px;
+		background-color: #F7F7F7;
+		border-bottom: solid 1px #EAEAEA;
+	}	
+
+.cssPageElementResultsPaging
+	{
+		padding: 16px 10px 14px 10px;
+		background-color: #F7F7F7;
+		border-top: solid 1px #EAEAEA;
+	}
+	
+	
+.cssTableSetup
+	{
+		height: 100%;
+	}	
+	
+	
+/* Print */
+.cssPrintPageSetup
+	{
+		width: 554px;
+		margin: 10px 10px 10px 10px;
+	}
+	
+.cssPrintPageElementHeader
+	{
+		padding: 10px 10px 10px 10px;	
+	}
+
+.cssPrintPageElementContent
+	{
+		padding: 10px 10px 10px 10px;
+	}
+	
+.cssPrintPageElementFooter
+	{
+		padding: 10px 10px 20px 10px;
+	}
+		
+.cssPrintPageElementHorizontalSeparator
+	{
+		width: 554px !Important;
+		height: 1px !Important;
+		background-color: #E5E5E5 !Important;
+		font-size: 0px !Important;
+	}
+
+	
+/* CoolMenus 4 - default styles - do not edit */
+.clCMAbs 
+	{
+		position:absolute;
+		visibility:hidden;
+		left:0px;
+		top:0px;
+	}
+	
+/* CoolMenus 4 - default styles - end */
+/*Style for the background-bar*/
+.clBar 
+	{
+		position: absolute;
+		width: 10px;
+		height: 24px;
+
+	}
+/*Styles for level 0*/
+.clLevel0,.clLevel0over 
+	{
+		position: absolute;
+		padding: 2px;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+	}
+.clLevel0 {
+	background-color:#FFFFFF;
+	layer-background-color:#FFFFFF;
+	color:#FFFFFF;
+}
+.clLevel0over {
+	background-color:#FFFFFF;
+	layer-background-color:#FFFFFF;
+	color:#FFFFFF;
+	cursor:pointer;
+	cursor:hand;
+}
+.clLevel0border {
+	position:absolute;
+	visibility:hidden;
+	background-color:#FFFFFF;
+	layer-background-color:#FFFFFF;
+}
+
+/*Styles for level 1*/
+.clLevel1, .clLevel1over {
+	position: absolute;
+	padding: 2px 2px 2px 6px;
+	font-family: Lucida Grande, Trebuchet MS, Lucida Sans Unicode;
+	font-size: 11px;
+	text-transform: uppercase;
+	filter:alpha(opacity=85);
+	/*-moz-opacity: .75;*/
+	opacity: .85;
+}
+
+.clLevel1 {
+	background-color: #FFFFFF;
+	layer-background-color:#FFFFFF;
+	color:#990099;
+	filter:alpha(opacity=85);
+	/*-moz-opacity: .75;*/
+	opacity: .85;
+}
+
+.clLevel1over {
+	background-color:#FFFFFF;
+	layer-background-color:#FFFFFF;
+	color:#663366;
+	cursor:pointer;
+	cursor:hand;
+	filter:alpha(opacity=85);
+	/*-moz-opacity: .75;*/
+	opacity: .85;
+}
+
+.clLevel1border {
+	position:absolute;
+	visibility:hidden;
+	background-color:#FFFFFF;
+	layer-background-color:#FFFFFF;
+	filter:alpha(opacity=85);
+	/*-moz-opacity: .75;*/
+	opacity: .85;
+}

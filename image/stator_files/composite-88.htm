@@ -1,0 +1,153 @@
+document.write('<div id="objPageHeaderElement" class="cssPageElementHeader">');
+	
+		document.write('<table width="730" cellpadding="0" cellspacing="0" border="0" id="objHeaderTable">');
+		document.write('	<tr>');
+		document.write('		<td style="width:540px;"><img src="http://www.windpower.org/images/blank.gif" width="5" height="1" alt="" /></td>');
+		document.write('		<td style="width:190px; text-align:right;"><a href="http://www.windpower.org/da/core.htm" class="cssLinkClear"><img src="http://www.windpower.org/media/1033_40.gif" onmouseover="this.src = \'http://www.windpower.org/media/1033_41.gif\';" onmouseout="this.src = \'http://www.windpower.org/media/1033_40.gif\'" border="0" alt="Gå til dansk udgave" /></a><img src="http://www.windpower.org/images/blank.gif" width="15" height="1" alt="" /></td>');
+		document.write('	</tr>');
+		document.write('</table>');
+	
+document.write('</div>');
+document.write('<div id="objPageIdentityElement" class="cssPageElementIdentity">');
+	
+		document.write('<table width="730" cellpadding="0" cellspacing="0" border="0" id="objIdentityTable">');
+		document.write('	<tr>');
+		document.write('		<td style="width:540px;"><a href="http://www.windpower.org/en/core.htm" class="cssLinkClear"><img src="http://www.windpower.org/media/1033_63.gif" border="0" alt="Danish Wind Industry Association" /></a></td>');
+		document.write('		<td style="width:190px; text-align:right; vertical-align:middle;"><form action="http://www.windpower.org/composite-56.htm" method="get" id="frmSearch"><input type="text" name="strKeyword" id="strKeyword" class="cssFormSearchTextBox" /><img src="http://www.windpower.org/images/blank.gif" width="5" height="1" alt="" /><input type="image" src="http://www.windpower.org/media/1033_44.gif" onmouseover="this.src = \'http://www.windpower.org/media/1033_45.gif\';" onmouseout="this.src = \'http://www.windpower.org/media/1033_44.gif\';" alt="" /></form></td>');
+		document.write('	</tr>');
+		document.write('</table>');
+	
+document.write('</div>');
+document.write('<div id="objPageIdentityBannerSeparator" class="cssPageElementHorizontalSeparator"><img src="http://windpower.clients.zupa.dk/images/blank.gif" width="1" height="1" alt="" /></div>');
+document.write('<div id="objPageBannerElement" class="cssPageElementBanner">');
+	
+		document.write('<table width="730" cellpadding="0" cellspacing="0" border="0" id="objHeadlineTable">');
+		document.write('	<tr>');
+		document.write('		<td style="width:540px; vertical-align:middle;"><img src="http://www.windpower.org/images/blank.gif" width="5" height="1" alt="" /></td>');
+		document.write('		<td style="width:75px; text-align:left; vertical-align:middle;"><a href="javascript:printIt();" class="cssLinkClear"><img src="http://www.windpower.org/media/1030_55.gif" border="0" alt="" /></a></td>');
+		document.write('		<td style="width:115px; text-align:right; vertical-align:middle;"><a href="#" class="cssLinkClear"><img src="http://www.windpower.org/media/1033_54.gif" border="0" alt="" /></a><br /></td>');
+		document.write('	</tr>');
+		document.write('</table>');
+	
+document.write('</div>');
+document.write('<div id="objPageBannerContentSeparator" class="cssPageElementHorizontalSeparator"><img src="http://windpower.clients.zupa.dk/images/blank.gif" width="1" height="1" alt="" /></div>');
+	
+			oCMenu=new makeCM("oCMenu") //Making the menu object. Argument: menuname
+			oCMenu.frames = 0
+			oCMenu.pxBetween=16; oCMenu.fromLeft=16; oCMenu.fromTop=5; oCMenu.rows=1; oCMenu.menuPlacement='left';
+			oCMenu.offlineRoot="http://www.windpower.org/" 
+			oCMenu.onlineRoot="http://www.windpower.org/"; oCMenu.resizeCheck=1; oCMenu.wait=1000; oCMenu.fillImg='http://www.windpower.org/images/blank.gif'; oCMenu.zIndex=40
+			oCMenu.useBar=0; oCMenu.barWidth="532"; oCMenu.barHeight="menu"; oCMenu.barClass="clBar"; 
+			oCMenu.barX=0; oCMenu.barY=0; oCMenu.barBorderX=0; oCMenu.barBorderY=0; oCMenu.barBorderClass=""
+			
+			oCMenu.level[0]=new cm_makeLevel(); //Add this for each new level
+			oCMenu.level[0].width=70;
+			oCMenu.level[0].height=17;
+			oCMenu.level[0].regClass="clLevel0";
+			oCMenu.level[0].overClass="clLevel0over";
+			oCMenu.level[0].borderX=0;
+			oCMenu.level[0].borderY=0;
+			oCMenu.level[0].borderClass="clLevel0border";
+			oCMenu.level[0].offsetX=-1;
+			oCMenu.level[0].offsetY=18;
+			oCMenu.level[0].rows = 1;
+			oCMenu.level[0].arrow = 1;
+			oCMenu.level[0].arrowWidth = 2;
+			oCMenu.level[0].arrowHeight = 2;
+			oCMenu.level[0].align = "center";
+			
+			
+			oCMenu.level[1]=new cm_makeLevel()
+			oCMenu.level[1].width=140;
+			oCMenu.level[1].height=18;
+			oCMenu.level[1].regClass="clLevel1"
+			oCMenu.level[1].overClass="clLevel1over"
+			oCMenu.level[1].borderX=1;
+			oCMenu.level[1].borderY=1;
+			oCMenu.level[1].align="right"; 
+			oCMenu.level[1].offsetX=-(oCMenu.level[0].width-2)/2+20;
+			oCMenu.level[1].offsetX=0;
+			oCMenu.level[1].offsetY=0;
+			oCMenu.level[1].borderClass="clLevel1border";
+			oCMenu.level[1].filter="filter:alpha(opacity=87)" 
+			
+			//oCMenu.makeMenu(name, parent_name, text, link, target, width, height, regImage, overImage, regClass, overClass , align, rows, nolink, onclick, onmouseover, onmouseout)
+			
+					oCMenu.makeMenu('objParent0','','','en/core.htm','','35','14','media/1033_1.gif','media/1033_2.gif','','','','','','','');
+				
+					oCMenu.makeMenu('objParent1','','','en/news.htm','','35','14','media/1033_9.gif','media/1033_10.gif','','','','','','','');
+				
+					oCMenu.makeMenu('objParent2','','','en/policy.htm','','42','14','media/1033_17.gif','media/1033_18.gif','','','','','','','');
+				
+					oCMenu.makeMenu('objParent3','','','en/knowhow.htm','','62','14','media/1033_25.gif','media/1033_26.gif','','','','','','','');
+				
+					oCMenu.makeMenu('objParent4','','','en/didyouknow.htm','','88','14','media/1033_29.gif','media/1033_30.gif','','','','','','','');
+				
+					oCMenu.makeMenu('objParent5','','','en/industry.htm','','57','14','media/1033_5.gif','media/1033_6.gif','','','','','','','');
+				
+					oCMenu.makeMenu('objParent6','','','en/about.htm','','58','14','media/1033_13.gif','media/1033_14.gif','','','','','','','');
+				
+					oCMenu.makeMenu('objParent7','','','shop.htm','','33','14','media/1033_21.gif','media/1033_22.gif','','','','','','','');
+				
+			oCMenu.makeMenu('objChild1','objParent1','News overview','en/news.htm');			
+			
+			oCMenu.makeMenu('objChild2','objParent2','Policy','en/policy.htm');			
+			
+			oCMenu.makeMenu('objChild3','objParent3','Know How','en/knowhow.htm');			
+			
+			oCMenu.makeMenu('objChild4','objParent5','Industry','en/industry.htm');			
+			
+			oCMenu.makeMenu('objChild5','objParent7','Shop','shop.htm');			
+			
+			oCMenu.makeMenu('objChild6','objParent1','Newsletter','en/newsletter.htm');			
+			
+			oCMenu.makeMenu('objChild7','objParent3','Did you know?','en/didyouknow.htm');			
+			
+			oCMenu.makeMenu('objChild8','objParent5','Pictures','en/pictures.htm');			
+			
+			oCMenu.makeMenu('objChild9','objParent6','About us','en/about.htm');			
+			
+			oCMenu.makeMenu('objChild10','objParent2','Wind Power Hub','en/hub.htm');			
+			
+			oCMenu.makeMenu('objChild11','objParent3','Guided Tour','en/tour.htm');			
+			
+			oCMenu.makeMenu('objChild12','objParent1','Interview','en/news/interview.htm');			
+			
+			oCMenu.makeMenu('objChild13','objParent2','Market and prices','en/market.htm');			
+			
+			oCMenu.makeMenu('objChild14','objParent3','Wind with Miller','en/kids.htm');			
+			
+			oCMenu.makeMenu('objChild15','objParent6','List of members','en/members.htm');			
+			
+			oCMenu.makeMenu('objChild16','objParent2','Climate and CO2','en/climate.htm');			
+			
+			oCMenu.makeMenu('objChild17','objParent3','Wind figures','en/stats.htm');			
+			
+			oCMenu.makeMenu('objChild18','objParent1','Articles','en/news/articles');			
+			
+			oCMenu.makeMenu('objChild19','objParent2','Research and education','en/R&amp;D.htm');			
+			
+			oCMenu.makeMenu('objChild20','objParent6','Links','en/links.htm');			
+			
+			oCMenu.makeMenu('objChild21','objParent2','Future energy supply','en/futuresupply.htm');			
+			
+			oCMenu.makeMenu('objChild22','objParent6','Copyright','en/copyright.htm');			
+			
+			oCMenu.makeMenu('objChild23','objParent1','Members catalogue','composite-834.htm');			
+			
+			oCMenu.makeMenu('objChild24','objParent2','Landscape Planning','en/environmentandplanning.htm');			
+			
+			oCMenu.makeMenu('objChild25','objParent1','Annual report','en/annualreport.htm');			
+			
+			oCMenu.makeMenu('objChild26','objParent2','Europe','en/europe.htm');			
+			
+			oCMenu.makeMenu('objChild27','objParent1','Conferences and events','en/events.htm');			
+			
+			oCMenu.construct();
+			
+			function ReSize(){
+				window.location.reload();
+			}
+			window.onresize = ReSize;
+	
+$$ExtranetGuardCheck;
